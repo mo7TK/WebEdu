@@ -65,11 +65,11 @@ export default function Navbar() {
                 Profile
               </Link>
               <Link
-                to="/signin"
+                to="/login"
                 className="block px-4 py-2 text-gray-800 hover:bg-cyan-100 hover:rounded-b-lg"
                 onClick={() => setShowMenu(false)}
               >
-                Sign In
+                Login
               </Link>
             </div>
           )}
