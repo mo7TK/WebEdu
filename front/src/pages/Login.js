@@ -43,7 +43,7 @@ export default function Login() {
 
         <button
           type="submit"
-          className="w-full bg-sky-600 hover:bg-sky-700 text-white py-2 rounded-md"
+          className="w-full bg-sky-800 hover:bg-sky-900 text-white py-2 rounded-md"
         >
           Se connecter
         </button>
@@ -53,7 +53,7 @@ export default function Login() {
           Pas encore inscrit ?{" "}
           <Link
             to="/signup"
-            className="text-sky-600 hover:underline font-medium"
+            className="text-sky-800 hover:underline font-medium"
           >
             S'inscrire
           </Link>

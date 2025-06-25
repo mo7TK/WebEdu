@@ -123,28 +123,29 @@ export default function Signup() {
           className="w-full mb-4 p-2 border rounded-md"
           required
         >
-          <option value="">-- Sélectionner le niveau d’étude --</option>
-          <option value="L1">Licence 1</option>
-          <option value="L2">Licence 2</option>
-          <option value="L3">Licence 3</option>
-          <option value="M1">Master 1</option>
-          <option value="M2">Master 2</option>
-          <option value="Doctorat">Doctorat</option>
+          <option value="" disabled>-- Sélectionner le niveau d’étude --</option>
+          <option value="B+1">Bac + 1</option>
+          <option value="B+2">Bac + 2</option>
+          <option value="B+3">Bac + 3</option>
+          <option value="B+4">Bac + 4</option>
+          <option value="B+5">Bac + 5</option>
+          <option value="B+6">Bac + 6</option>
+          <option value="B+7">Bac + 7</option>
         </select>
 
         <button
           type="submit"
-          className="w-full bg-sky-600 hover:bg-sky-700 text-white py-2 rounded-md"
+          className="w-full bg-sky-800 hover:bg-sky-900 text-white py-2 rounded-md"
         >
           S'inscrire
         </button>
 
-        {/* 🔗 Lien vers la page de connexion */}
+        {/*Lien vers la page de connexion */}
         <p className="mt-4 text-center text-sm text-gray-600">
           Déjà inscrit ?{" "}
           <Link
             to="/login"
-            className="text-sky-600 hover:underline font-medium"
+            className="text-sky-800 hover:underline font-medium"
           >
             Se connecter
           </Link>
